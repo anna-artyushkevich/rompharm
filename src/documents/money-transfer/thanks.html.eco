@@ -1,0 +1,12 @@
+---
+title: 'Thanks for your order'
+layout: template
+---
+
+<div><img src="<%= @getUrl('/img/breadcrumbs-collapsed.png') %>" alt=""></div>
+<div><img src="<%= @getUrl('/img/title-thanks.png') %>" alt=""></div>
+<div><a href="<%= @getUrl('/money-transfer/history/order') %>"><img src="<%= @getUrl('/img/thanks-order-details.png') %>" alt=""></a></div>
+<div><img src="<%= @getUrl('/img/order-status.png') %>" alt=""></div>
+<div><img src="<%= @getUrl('/img/stay-informed.png') %>" alt=""></div>
+<div><a href="<%= @getUrl('/money-transfer/alerts') %>"><img src="<%= @getUrl('/img/alerts.png') %>" alt=""></a></div>
+<div><a href="<%= @getUrl('/money-transfer/additional-services') %>"><img src="<%= @getUrl('/img/continue.png') %>" alt=""></a></div>
